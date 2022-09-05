@@ -42,5 +42,5 @@ You could need these ressources. Many of them are available here:
 
 ## Efficiency track
 
-The training for efficiency track is almost the same. YWe just have to discard the folding-related things, which is done in the *notebooks/training-efficiency.ipynb* file.
+The training for efficiency track is almost the same. You just have to discard the folding-related things, which is done in the *notebooks/training-efficiency.ipynb* file.
 The inference kernel is strictly the same for efficiency and non-efficiency.
