@@ -37,4 +37,10 @@ You could need these ressources. Many of them are available here:
     - microsoft/deberta-v3-large : data/fprize_microsoft_deberta-v3-large_fold0_epoch_04_iov_v2_val_0.7346_20220625092726.pth
     - microsoft/deberta-large : data/fprize_microsoft_deberta-large_fold0_epoch_05_iov_v2_val_0.7418_20220625133915.pth
     - microsoft/deberta-xlarge : 
-    - microsoft/deberta-v2-xlarge : 
+    - microsoft/deberta-v2-xlarge :
+
+
+## Efficiency track
+
+The training for efficiency track is almost the same. YWe just have to discard the folding-related things, which is done in the *notebooks/training-efficiency.ipynb* file.
+The inference kernel is strictly the same for efficiency and non-efficiency.
